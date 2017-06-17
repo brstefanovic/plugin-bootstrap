@@ -28,7 +28,7 @@ if (PLTMP_DEBUG) {
 }
 
 /** Include all dependencies */
-$files = glob(PLTMP_PATH.'/inc/PLTMP_*');
+$files = glob(PLTMP_PATH.'/inc/pltmp_*');
 foreach($files as $f) { require_once ( $f ); }
 /** Include all dependencies */
 
